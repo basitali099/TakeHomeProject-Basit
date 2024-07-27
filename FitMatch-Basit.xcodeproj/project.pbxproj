@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		10DAAB8C2C538ED600D2C3F1 /* FitMatch_BasitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DAAB8B2C538ED600D2C3F1 /* FitMatch_BasitApp.swift */; };
-		10DAAB902C538ED700D2C3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DAAB8F2C538ED700D2C3F1 /* Assets.xcassets */; };
-		10DAAB932C538ED700D2C3F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DAAB922C538ED700D2C3F1 /* Preview Assets.xcassets */; };
 		10DAAB9C2C5392E200D2C3F1 /* robot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 10DAAB9B2C5392E200D2C3F1 /* robot.usdz */; };
 		10DAAB9E2C53980600D2C3F1 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DAAB9D2C53980600D2C3F1 /* SignInView.swift */; };
 		10DAABA02C539D7000D2C3F1 /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DAAB9F2C539D7000D2C3F1 /* DetailModel.swift */; };
@@ -34,8 +32,6 @@
 /* Begin PBXFileReference section */
 		10DAAB882C538ED600D2C3F1 /* FitMatch-Basit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FitMatch-Basit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DAAB8B2C538ED600D2C3F1 /* FitMatch_BasitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitMatch_BasitApp.swift; sourceTree = "<group>"; };
-		10DAAB8F2C538ED700D2C3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		10DAAB922C538ED700D2C3F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		10DAAB9B2C5392E200D2C3F1 /* robot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = robot.usdz; sourceTree = "<group>"; };
 		10DAAB9D2C53980600D2C3F1 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		10DAAB9F2C539D7000D2C3F1 /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
@@ -90,18 +86,8 @@
 				10DAAB8B2C538ED600D2C3F1 /* FitMatch_BasitApp.swift */,
 				10DAABA72C539F2000D2C3F1 /* Modules */,
 				10DAABAB2C539F4800D2C3F1 /* Resources */,
-				10DAAB8F2C538ED700D2C3F1 /* Assets.xcassets */,
-				10DAAB912C538ED700D2C3F1 /* Preview Content */,
 			);
 			path = "FitMatch-Basit";
-			sourceTree = "<group>";
-		};
-		10DAAB912C538ED700D2C3F1 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				10DAAB922C538ED700D2C3F1 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		10DAABA72C539F2000D2C3F1 /* Modules */ = {
@@ -293,12 +279,10 @@
 			files = (
 				10DAABB12C54439300D2C3F1 /* teapot.usdz in Resources */,
 				10DAABB32C54439D00D2C3F1 /* cup_saucer_set.usdz in Resources */,
-				10DAAB932C538ED700D2C3F1 /* Preview Assets.xcassets in Resources */,
 				10DAABAF2C54438300D2C3F1 /* sneaker_airforce.usdz in Resources */,
 				10DAAB9C2C5392E200D2C3F1 /* robot.usdz in Resources */,
 				10DAABAD2C5421E800D2C3F1 /* tv_retro.usdz in Resources */,
 				10DAABB52C5443A600D2C3F1 /* fender_stratocaster.usdz in Resources */,
-				10DAAB902C538ED700D2C3F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +439,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FitMatch-Basit/Preview Content\"";
 				DEVELOPMENT_TEAM = D7P6Y97F92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -486,7 +469,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FitMatch-Basit/Preview Content\"";
 				DEVELOPMENT_TEAM = D7P6Y97F92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
